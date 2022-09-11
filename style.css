@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    background-color: #CFD2CF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* Navbar */
+
+nav{
+background-color: white;
+    display: flex;
+    height: 7vh;
+}
+
+.nav-left {
+    display: flex;
+    padding-left: 100px;
+    align-items: center;
+    flex: 50%;
+}
+
+.nav-left li {
+    display: inline;
+}
+
+.nav-left ul {
+    display: flex;
+ 
+}
+
+.nav-left ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.nav-right {
+    display: flex;
+    flex: 50%;
+    align-items: center;
+    justify-content: flex-end; 
+    padding-right: 100px;
+}
+
+.nav-right a {
+    background-color: black;
+    color: white;
+    padding: 8px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Content */
+
+.container{
+    background-color: whitesmoke;
+    border: none;
+    width: 1200px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 18px rgb(194, 192, 192);
+}
+
+section {
+    display: flex;
+    width: 85%;
+}
+
+.section-left p {
+    text-align: justify;
+}
+
+.info{
+    display: flex;
+    margin: 20px 0px 20px 0px;
+}
+
+.section-left {
+    flex: 80%;
+    margin: 80px 10px 40px 100px;
+}
+
+#button-black  {
+    background-color: black; 
+    color: white; 
+    margin-top: 10px; 
+    padding: 5px 25px;
+    border-radius: 20px;
+    font-size: 15px; 
+    text-decoration: none;                 
+}
+
+.cv {
+    margin: 10px 20px;
+}
+
+.sosial-media {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.section-right {
+    flex: 20%;
+    margin: 0 20px 0 100px;
+}
+
+.card-right {
+    border: 1px solid rgb(214, 213, 213); 
+    width: 350px;
+    margin: 90px auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 18px rgb(194, 192, 192);
+}
+
+.table-card {
+    border: 1px solid grey;
+    width: 100%;
+    text-align: center;
+    border-collapse:collapse;
+    border: none;
+}
+
+.table-card tr th {
+    border: none;
+}
